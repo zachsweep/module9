@@ -292,7 +292,7 @@ plot(w/pi,20*log10(abs(H5)));
 line([0 2],[0.1 0.1],'color','red','LineStyle','--');
 line([0 2],[-0.1 -0.1],'color','red','LineStyle','--');
 line([0 2],[-3 -3],'color','red','LineStyle','--');
-axis([0 0.25 -60 10]);
+axis([0 0.5 -60 10]);
 title({'20-Band Eigen Filter Banks','zoomed view of bands 1-5'});
 xlabel('Normalized Frequency (x pi rad/sample)');ylabel('Magnitude (dB)');
 
